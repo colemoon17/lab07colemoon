@@ -44,9 +44,6 @@ class Rectangle:
 
 class Square(Rectangle):   # Part 4 - stretch (optional)
     def __init__(self, side):
-        # TODO: a Square is a Rectangle whose width and height are the same. Call the
-        #   Rectangle constructor with `side` for both (use super().__init__(...)).
-        #   area, perimeter, and __str__ are then inherited automatically.
         super().__init__(side,side)
 
 
